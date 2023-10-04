@@ -1,4 +1,3 @@
-// IMPORTANDO A NAVEGAÇÃO
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
@@ -15,7 +14,7 @@ export default function App() {
         <Stack.Screen 
           name='createCategory'
           component={createCategory}
-          options={{title:"CRIE UMA CATEGORIA."}}
+          options={{title:"CRIE UMA CATEGORIA"}}
         />
 
       </Stack.Navigator>

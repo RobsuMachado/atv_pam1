@@ -1,4 +1,4 @@
-import { StyleSheet, Text, SafeAreaView, Image, View, VirtualizedList, TextInput, TouchableOpacity, ScrollView } from "react-native";
+import { StyleSheet, Text, SafeAreaView, Image, View, TextInput, TouchableOpacity, ScrollView } from "react-native";
 import MaterialIcons from 'react-native-vector-icons/MaterialCommunityIcons'
 
 export default function createCategory() {
@@ -76,8 +76,8 @@ const styles = StyleSheet.create({
 
     title: {
         alignItems: 'center',
-        marginBottom: 100,
-        marginTop: 100,
+        marginBottom: '25%',
+        marginTop: '25%',
     },
 
     titleText: {
